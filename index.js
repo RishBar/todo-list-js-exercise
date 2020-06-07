@@ -20,6 +20,7 @@ function logTaskState(taskIndex) {
   const complete = taskComplete[taskIndex];
   console.log(`${title} has${complete ? " " : " not "}been completed`);
 }
+let blah = 1;
 
 // DRIVER CODE BELOW
 
